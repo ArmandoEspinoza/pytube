@@ -13,12 +13,7 @@ print("Hi! welcome to the python youtube video downloader! ヽ(・∀・)ﾉ")
 link=input("Please paste the link of the video you want to download!ᕕ( ᐛ )ᕗ : \n")
 yt = YouTube(link)
 
-#Showing details
-print("Your video details! (〜￣▽￣)〜  : ")
-print("Title: ",yt.title)
-print("Number of views: ",yt.views)
-print("Length of video: ",yt.length)
-print("Rating of video: ",yt.rating)
+
 
 #Just feedback for the user
 print("Downloading! (¬‿¬ ")
